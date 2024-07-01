@@ -1,0 +1,35 @@
+button{
+    background-color: deeppink;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+}
+
+button:hover{
+    cursor: grab;
+    background-color: darkseagreen;
+}
+
+button:active{
+    cursor: pointer;
+    background-color: blue;
+}
+
+a{
+    color: darkred;
+    text-decoration: none;
+}
+
+a:visited{
+    color: cyan;
+    font-style: italic;
+}
+
+a[target="_blank"]{
+    color: chartreuse;
+}
+
+a[href="stmikkaputama.ac.id"]{
+    color: blueviolet;
+}
